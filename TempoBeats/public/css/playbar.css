@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    padding: 0;
+    margin: 0;
+ }
+.bottombar{
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #131212;
+    display: flex;
+    justify-content: space-between;
+    border: 0;
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;      
+    filter: drop-shadow(0 0px 10px #2e2c2c);
+  }
+.bottombar .left{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bottombar .left .creds{
+    width: 70%;
+    display: flex;
+    align-items:center;
+    
+    justify-content:space-evenly;
+    
+    
+}
+.bottombar .left .creds .title, .bottombar .left .creds .artist{
+    color: white;
+    
+}
+.bottombar .left .creds .title{
+    font-weight: 550;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.bottombar .left .creds .artist{
+    font-size: 10px;
+    margin-top: -10px;
+    color: rgb(214, 212, 212);
+}
+.bottombar .left .lefticon{
+    width: 45px;
+    height: 38px;
+}
+.bottombar .left .heart{
+    width: 45px;
+    height: 38px;
+}
+.bottombar .middle{
+    width: 45%;
+    height: 100%;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottombar .middle .buttons{
+    display: flex;
+    width: 100%;
+    height: 55%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+   
+
+}
+
+.bottombar i{
+  cursor: pointer;
+  color: white;
+}
+
+.bottombar .middle .musicbar{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    flex-direction: row;
+    justify-content: center;
+}
+.bottombar .middle .musicbar .initial , .bottombar .middle .musicbar .final{
+    font-size: 14px;
+    color: white;
+}
+.bottombar .middle .musicbar hr{
+    height: 5px;
+    background-color: rgb(212, 212, 212);
+    color: grey;
+    width: 55%;
+    margin:7.5px 5px 0 5px;
+    border: none;
+}
+.bottombar .right{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bottombar .right .righticons{
+    width: 32px;
+    height: 27px;
+    margin-left: 5px;
+}
+.bottombar .right .volumebar{
+    width: 40%;
+    height: 7px;
+    background-color: grey;
+    margin-top: 1px;
+    border-radius: 5px;
+}
+.bottombar .right .volumebar .level{
+    margin-top:-1px;
+    border-radius: 5px;
+    height: 100%;
+    width: 27%;
+    background-color:white;
+    color: white;
+}
+
+.on.material-icons{
+  color: rgb(214, 175, 44);
+  
+}
+.onh.fas{
+  color: #d6af2c; 
+}
+
+.sk.material-icons:active{
+  color: rgb(214, 175, 44); 
+}
+
+#sound-slider{
+  width: 45%;
+}
+#progress-bar{
+  max-width: 70%;
+  width: 70%;
+  margin: 0 7px;
+  margin-top: 5px;
+
+}
+  
+
+input[type="range"]{
+  height: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  border-radius: 25px;
+  box-shadow: inset 0px 0px 4px rgba(0,0,0,0.2);
+}
+
+input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+ background-color: #d6af2c;
+}

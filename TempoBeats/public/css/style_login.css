@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.logo-top{
+    display: flex;
+    justify-content: center;
+    padding:25px;
+    border-bottom: 2px solid  rgba(183,183,183,0.75) ;
+}
+
+.container{    
+    display: flex;
+    justify-items: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.container .para {
+    padding:0;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.loginbtn{
+    display: flex;
+    border-radius: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 11px;
+    width: 425px;
+    height: 40px;
+    padding: 0px;
+    font-size:smaller;
+    border: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.loginbtn:hover{
+    opacity: 0.75;
+}
+
+.logo{
+    margin-right: 15px;
+    margin-top: -1px;
+    font-size: 20px;
+}
+
+.facebook-login{
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.line{
+    border: 1.25px solid rgba(183,183,183,0.75);
+    width: 180px;
+    height: 0;
+}
+.breakline{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.or{
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 12px;
+    color:rgba(183,183,183,0.75)
+}
+
+.email-login{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 800px;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.email-login label{
+    font-weight: bold;
+}
+input[type="email"],input[type="password"]{
+    background: none;
+    color:rgb(183,183,183);
+    border:0;
+    width:400px;
+    font-size:15px;
+    outline:none;
+    height: 50px;
+    border: 2px solid rgba(183,183,183,0.75);
+    border-radius: 3.5px;
+    margin: 10px 0px;
+    padding-left:15px ;
+}
+
+input[type="email"]:focus,input[type="password"]:focus{
+    border-color: #D4AF37;
+}
+
+a{
+    margin-top: 10px;
+    color:white;
+}
+
+a:hover{
+    color: rgb(212, 175, 55,0.75);
+}
+
+input[type="checkbox"]{
+    width: 15px;
+    margin-top: 10px;
+}
+
+input[type="checkbox"]{
+    background-color: #D4AF37;
+}
+
+.btn{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    background: none;
+    border: none;
+    color: white;
+    background-color: #D4AF37;
+    margin-top: 10px;
+    margin-left: 240px;
+    transform: translate(0px, 0px);
+    transition: transform 0.4s ease-in-out;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+.btn:hover{
+    transform: scale(1.1) translate(0px, 0px);
+}
+.btn:active{
+    opacity: 0.75;
+}
+.rmb{
+    margin-top: 10px;
+    margin-left: -5px;
+}
+hr{
+    width: 400px;
+    margin-top: 20px;
+    background-color: rgba(183,183,183,0.75);
+}
+
+.signup{
+    display: flex;
+    min-height: 150px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup button{
+    background: none;
+    color:azure;
+    border-color: azure;
+    width: 400px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.signup button:hover{
+    background: none;
+    color:#D4AF37;
+    border-color: rgb(212, 175, 55);
+    width: 410px;
+    border-radius: 30px;
+    box-shadow: 2.5px 2px 12px rgb(212, 175, 55,0.8);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.Error-msg{
+    font-size: 15px;
+    color: rgb(221, 41, 41);
+    margin: 5px;
+}
+

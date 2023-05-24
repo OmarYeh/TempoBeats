@@ -1,0 +1,144 @@
+.library{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 0 10px;
+    color: white;
+    background-color: #1d1b1b;
+    min-height: 92.1vh;
+    max-height: 92.1vh; 
+    padding:15px;
+    overflow-y: scroll;
+}
+
+.titlep{
+    height: 50px;
+    width: 100%;
+}
+.liked{
+    height: 35vh;
+    width: 25vw;
+    background-image: linear-gradient(to bottom right , #d6af2c 0%,#e6c455 40%, #f7e198 80% );
+    border-radius: 7px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.textL{
+    color: white;
+    opacity:0.8;
+    font-size: 14px;
+    width: 90%;
+    padding-left: 12px;
+    padding-top: 27px;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+h2, h5{
+    padding-left:12px;
+    padding-top:8px;
+}
+.playlists{
+   
+    margin-left: 20px;
+    display: flex;
+    width: 14vw;
+    height: 35.4vh;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow:-2px 3px 7px #121212;
+    border-radius:10px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.text7{
+    margin-left: 10px;
+    color: white;
+}
+
+.logocontainer{
+    height: 65%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(54, 53, 53);
+    margin-top: 10px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+#logoP{
+    font-size: 40px;
+}
+.kp{
+    width: 48px;
+    height: 48px;
+    margin: auto;
+  }
+.user{
+    margin-left: 10px;
+    color: lightgray;
+}
+
+.allpl{
+    display: flex;
+    flex-direction: column;
+}
+.pl{
+    display: flex;
+  
+}
+.row3 .album{
+   
+    margin-top:30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 200px;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow:-2px 5px 7px #131313;
+    border-radius:15px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .row3 .album img{
+    width: 180px;
+    border-radius: 15px;
+  }
+  .row3 h4{
+    letter-spacing: 1px;
+    font-size: 22px;
+   
+  }
+   .row3 .album .musictitle{
+    font-size: 19px;
+    color: white;
+    padding-top:5px;
+    font-weight: bolder;
+  }
+   .row3 .album .author{
+    font-size: 10px;
+    color: rgb(186, 182, 182);
+    font-weight: bold;
+    padding-top: 1px;
+  }
+  .row3 .album .playbtn{
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: rgb(214, 175, 44);
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-top: 75px;
+  color: white;
+  transition: opacity 0.25s ease-in-out;
+ 
+}

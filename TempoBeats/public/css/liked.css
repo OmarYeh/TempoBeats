@@ -1,0 +1,90 @@
+.playlistcontent{
+    overflow-y: scroll;
+    min-height: 92.1vh;
+    max-height: 92.1vh;
+    background-color: #1d1b1b;
+}
+.playlistcontent .topContent{
+    background: linear-gradient(to bottom right , #d6af2c 0%,#e6c455 40%, #f7e198 80% );
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.playlistcontent .topContent .tcleft{
+    height:70%;
+    width: 17%;
+    margin: 20px ;
+    margin-top: 40px;
+    margin-left: 30px;
+    background: linear-gradient(to bottom right , #d6af2c 0%,#e6c455 40%, #f7e198 80% );
+   display:flex;
+   justify-content: center;
+   align-items: center;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.19);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 20px;
+}
+.playlistcontent .topContent .tcright{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 85%;
+    width: 70%;
+    margin: 18px;
+    justify-content: flex-end;
+}
+.playlistcontent .topContent .tcright .one , .two , .three{
+    color:white;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.one{
+    font-size: 16px;
+}
+.two{
+    font-size: 54px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.down{
+    width: 100%;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    
+    padding: 10px;
+    background-color: none !important;
+    color: white;
+  }
+  
+  
+  #customers tbody tr:hover {
+    background-color: #676767;
+    color: black;
+}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:transparent;
+    color: white;
+  }
+.titleT{
+    width: 600px;
+}
+  .HbtnLp{
+    color:#d6af2c;
+  }
+
+  .AlbumT{
+    width: 250px;
+  }
+

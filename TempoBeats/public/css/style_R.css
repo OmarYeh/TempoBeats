@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.logo-top{
+    display: flex;
+    justify-content: center;
+    padding:25px;
+    border-bottom: 2px solid  rgba(183,183,183,0.75) ;
+}
+
+.container{    
+    display: flex;
+    justify-items: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex:1;
+    
+}
+
+.container .title{
+    display: flex;
+    justify-content: center;
+}
+
+.loginbtn{
+    display: flex;
+    border-radius: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 11px;
+    width: 500px;
+    height: 50px;
+    padding: 0px;
+    font-size:smaller;
+    border: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.loginbtn:hover{
+    opacity: 0.75;
+}
+
+.logo{
+    margin-right: 15px;
+    margin-top: -1px;
+    font-size: 20px;
+}
+
+.facebook-login{
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.line{
+    border: 1.25px solid rgba(183,183,183,0.75);
+    width: 250px;
+    height: 0;
+}
+
+.breakline{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.or{
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 12px;
+    color:rgba(183,183,183,0.75)
+}
+
+.emailAddresssign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.email-login{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 500px;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.email-login label{
+    font-weight: bold;
+}
+
+input[type="email"],input[type="password"],input[type="text"],input[type="date"]{
+    background: none;
+    color:rgb(183,183,183);
+    border:0;
+    width:500px;
+    font-size:15px;
+    outline:none;
+    height: 50px;
+    border: 2px solid rgba(183,183,183,0.75);
+    border-radius: 3.5px;
+    margin: 17px 0px;
+    padding-left:15px ;
+}
+input[type="date"]{
+    padding: 10px;
+}
+
+input[type="email"]:focus,input[type="password"]:focus,input[type="text"]:focus,input[type="date"]:focus{
+    border-color: #D4AF37;
+}
+
+a{
+    margin-top: 10px;
+    color: rgb(212, 175, 55);
+}
+
+a:hover{
+    color: rgb(212, 175, 55,0.75);
+}
+.check{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#sharel{
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background: none;
+    border: none;
+    color: white;
+    background-color: #D4AF37;
+    margin-top: 20px;
+    margin-left: 175px;
+    transform: translate(0px, 0px);
+    transition: transform 0.4s ease-in-out;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+.btn:hover{
+    transform: scale(1.1) translate(0px, 0px);
+}
+.btn:active{
+    opacity: 0.75;
+}
+.rmb{
+    margin-top: 10px;
+    margin-left: -5px;
+}
+hr{
+    width: 400px;
+    margin-top: 20px;
+    background-color: rgba(183,183,183,0.75);
+}
+.radioG{
+    display: flex;
+    justify-content: revert;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+.radioG label{
+    margin-right: 10px;
+}
+
+input[type='radio'] {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    outline: none;
+    border: 3px solid gray;
+}
+
+
+input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked:before {
+    background: #D4AF37;
+    
+}
+
+input[type="radio"]:checked {
+  border-color:#D4AF37;
+}
+
+.signupa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.signupa p {
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+.login{
+
+    height: 100px;
+    margin-top: 15px;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert();
+    opacity: 1;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
+.Error-msg{
+    font-size: 15px;
+    color: rgb(221, 41, 41);
+    margin: 5px;
+    margin-bottom: 12px;
+}

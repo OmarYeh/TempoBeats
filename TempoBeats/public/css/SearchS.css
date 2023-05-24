@@ -1,0 +1,11 @@
+.searchCS{
+    background-color: #1d1b1b;
+    min-height: 92.1vh;
+    max-height: 92.1vh;
+    overflow-y: scroll;
+    padding:5px;
+}
+
+.searchCS table{
+    padding: 5px;
+}
